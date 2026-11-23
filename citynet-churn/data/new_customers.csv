@@ -1,0 +1,9 @@
+customer_id,region,plan,monthly_bill,tv_bundle,tenure_months,support_calls_90d,outage_hours_90d,payment_method,auto_pay,paid_late_last_bill,age
+C90001,East,Fiber 20,2750.0,no,5,1,2.0,cash,no,yes,21.0
+C90002,South,Fiber 20,2790.0,no,39,2,7.9,bank transfer,no,no,64.0
+C90003,South,Fiber 20,3280.0,no,42,1,1.7,card,no,no,25.0
+C90004,East,Fiber 50,4510.0,no,36,1,0.8,cash,no,no,49.0
+C90005,Central,Fiber 20,3200.0,no,31,1,1.2,bank transfer,yes,no,46.0
+C90006,South,Fiber 50,4540.0,no,22,0,7.5,card,no,no,49.0
+C90007,North,Fiber 20,2730.0,no,32,0,9.5,cash,no,no,26.0
+C90008,Central,Fiber 50,5790.0,yes,49,1,0.7,card,yes,no,33.0

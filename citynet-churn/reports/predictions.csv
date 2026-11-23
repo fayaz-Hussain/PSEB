@@ -1,0 +1,9 @@
+customer_id,plan,tenure_months,support_calls_90d,churn_risk
+C90001,Fiber 20,5,1,0.797
+C90006,Fiber 50,22,0,0.529
+C90002,Fiber 20,39,2,0.522
+C90007,Fiber 20,32,0,0.455
+C90004,Fiber 50,36,1,0.436
+C90005,Fiber 20,31,1,0.345
+C90003,Fiber 20,42,1,0.299
+C90008,Fiber 50,49,1,0.203
