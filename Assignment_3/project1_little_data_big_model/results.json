@@ -1,0 +1,50 @@
+{
+  "A. Underfit (tiny model)": {
+    "parameters": 160,
+    "training_images": 150,
+    "epochs_run": 300,
+    "best_val_loss_epoch": 300,
+    "final_train_loss": 1.1958,
+    "final_val_loss": 1.3239,
+    "best_val_loss": 1.3239,
+    "train_accuracy": 0.5533,
+    "test_accuracy": 0.5148,
+    "diagnosis": "UNDERFITTING: training accuracy is low - the model cannot even fit the data it sees."
+  },
+  "B. Overfit (big model, no regularisation)": {
+    "parameters": 429834,
+    "training_images": 150,
+    "epochs_run": 300,
+    "best_val_loss_epoch": 10,
+    "final_train_loss": 0.0,
+    "final_val_loss": 0.4248,
+    "best_val_loss": 0.2696,
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.8981,
+    "diagnosis": "OVERFITTING: training loss keeps falling but validation loss climbed 58% above its best - the model is memorising."
+  },
+  "C. Fixed (Dropout + L2 + EarlyStopping)": {
+    "parameters": 429834,
+    "training_images": 150,
+    "epochs_run": 255,
+    "best_val_loss_epoch": 230,
+    "final_train_loss": 0.1584,
+    "final_val_loss": 0.4254,
+    "best_val_loss": 0.4107,
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.9056,
+    "diagnosis": "GOOD FIT: training and validation curves stay close together."
+  },
+  "D. Fixed + more data (600 images)": {
+    "parameters": 429834,
+    "training_images": 600,
+    "epochs_run": 169,
+    "best_val_loss_epoch": 144,
+    "final_train_loss": 0.1652,
+    "final_val_loss": 0.2843,
+    "best_val_loss": 0.23,
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.9685,
+    "diagnosis": "GOOD FIT: training and validation curves stay close together."
+  }
+}
